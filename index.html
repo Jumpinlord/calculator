@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="calc">
+          <div class="calc__top">
+            <div class="calc__maker">Digital</div>
+            <div class="calc__solar"></div>
+          </div>
+          <div class="calc__screen">
+            <div class="calc__history"></div>
+            <div class="calc__result"></div>
+          </div>
+          <div class="calc__buttons">
+            <button id="power-btn" data-type="on" class="calc__btn calc__btn_enable calc__btn_red">ON</button>
+            <button data-type="clear" class="calc__btn calc__btn_grey">AC</button>
+            <button data-type="%" class="calc__btn calc__btn_grey">%</button>
+            <button data-type="Backspace" class="calc__btn calc__btn_grey">&lArr;</button>
+            <button data-type="7" class="calc__btn">7</button>
+            <button data-type="8" class="calc__btn">8</button>
+            <button data-type="9" class="calc__btn">9</button>
+            <button data-type="/" class="calc__btn calc__btn_grey">&divide;</button>
+            <button data-type="4" class="calc__btn">4</button>
+            <button data-type="5" class="calc__btn">5</button>
+            <button data-type="6" class="calc__btn">6</button>
+            <button data-type="*" class="calc__btn calc__btn_grey">&times;</button>
+            <button data-type="1" class="calc__btn">1</button>
+            <button data-type="2" class="calc__btn">2</button>
+            <button data-type="3" class="calc__btn">3</button>
+            <button data-type="-" class="calc__btn calc__btn_grey">&minus;</button>
+            <button data-type="0" class="calc__btn">0</button>
+            <button data-type="." class="calc__btn">.</button>
+            <button data-type="=" class="calc__btn calc__btn_grey">=</button>
+            <button data-type="+" class="calc__btn calc__btn_grey">&plus;</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
