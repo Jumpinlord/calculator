@@ -27,7 +27,7 @@ html {
   padding: 0;
 }
 body {
-  font-family: 'Eurostile', sans-serif;
+  font-family: 'Digital-7', sans-serif;
   color: var(--dark-clr);
   margin: 0;
   padding: 0;
@@ -66,6 +66,7 @@ body {
   margin-bottom: 25px;
 }
 .calc__maker {
+  font-family: 'Eurostile', sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
