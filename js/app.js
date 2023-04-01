@@ -138,9 +138,9 @@ function init() {
       }
     });
 
-    let stringTotal = String( parseFloat(total.toFixed(9)) );
+    let stringTotal = String( parseFloat(total.toFixed(12)) );
     if ( stringTotal.length > 10 ) {
-      return String( parseFloat(total.toFixed(9)).toExponential(10) )
+      return String( parseFloat(total.toFixed(12)).toExponential(10) )
     } else {
       return stringTotal;
     }
