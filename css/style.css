@@ -85,18 +85,20 @@ body {
   background-color: var(--calc-screen);
   border-radius: 3px;
   margin-bottom: 40px;
-  padding: 5px;
+  padding-inline: 5px;
   font-family: 'Digital-7', sans-serif;
   text-align: right;
 }
 .calc__history {
   height: 26px;
   font-size: 26px;
+  padding-block: 2px 5px;
 }
 
 .calc__result {
   height: 36px;
   font-size: 38px;
+  padding-bottom: 1px;
 }
 
 .calc__buttons {
