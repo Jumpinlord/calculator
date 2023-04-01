@@ -23,6 +23,9 @@ function init() {
   }
 
   function keyPressHandler({key}) {
+    if (key === ' ') {
+      return;
+  }
     const data = key;
     operation(data);
     renderTotal(tempNum);

@@ -103,7 +103,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  gap: 3px;
+  gap: 7px;
   min-height: 200px;
 }
 
@@ -115,6 +115,7 @@ body {
   color: var(--light-clr);
   border: none;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .calc__btn_grey {
@@ -126,18 +127,27 @@ body {
   background-color: var(--btn-red-clr);
 }
 
-.calc__btn:hover,
-.calc__btn:focus-visible {
-  filter: brightness(135%);
+.calc__btn:focus {
   outline: none;
 }
+
+.calc__btn:focus-visible {
+  filter: brightness(135%);
+}
+
+@media (hover: hover) {
+  .calc__btn:hover {
+    filter: brightness(135%);
+  }
+}
+
 .calc__btn:active {
   filter: brightness(60%);
 }
 
 @media (prefers-color-scheme: light) {
 	body {
-		background: linear-gradient(#76cebb, #e659c7);
+		background: linear-gradient(#4f98e6, #e659c7);
 	}
 }
 
